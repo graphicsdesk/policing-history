@@ -4,6 +4,8 @@ import { intersectTop } from './scripts/utils';
 
 import { spectate as spectateConfig } from '../package.json';
 
+import makePropertyMap from './scripts/property-map.js';
+
 // Main page initiation
 
 initiatePage();
@@ -39,3 +41,7 @@ export function hamburgerTrigger() {
 if (window.innerWidth <= 460) {
   textBalancer.balanceText('#headline, .deck, .image-caption-text');
 }
+
+// Create the map
+
+makePropertyMap();

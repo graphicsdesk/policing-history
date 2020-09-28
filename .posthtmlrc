@@ -6,13 +6,241 @@
     "posthtml-expressions": {
       "root": "./src/partials",
       "locals": {
-        "top": [],
-        "body": [],
+        "top": [
+          {
+            "type": "graphic",
+            "value": {
+              "asset": "thumbnail.html"
+            }
+          }
+        ],
+        "body": [
+          {
+            "type": "graphic",
+            "value": {
+              "asset": "lede.html",
+              "steps": []
+            }
+          },
+          {
+            "type": "text",
+            "value": "In September 1990, the New York Post<i> </i>ran a headline that read: “Crime-ravaged city cries out for help: Dave, Do Something.” The “Dave” in question was Mayor David Dinkins and the “crime-ravaged city” was New York City, whose crime rates had been steadily increasing throughout the 20th century."
+          },
+          {
+            "type": "graphic",
+            "value": {
+              "asset": "property-acquisition.html"
+            }
+          },
+          {
+            "type": "text",
+            "value": "By this point, Columbia’s reputation among wealthy college applicants had already suffered significantly. In 1968, the University’s attempt to build a <a href=\"http://spectatorarchive.library.columbia.edu/?a=d&d=cs19600114-01.2.2&srpos=1&e=------196-en-20--1-byDA-txt-txIN-morningside+park+gymnasium------\">gymnasium</a> in Morningside Park with a separate entrance and less access for Harlem residents caused widespread outrage within the community over racism and segregation and fueled violent student takeovers of five buildings. Dismayed at these events, many alumni stopped giving money while students and faculty sought colleges in “safer havens” than New York City in the ’70s and ’80s. In 1991, two years before former Mayor Rudy Giuliani was elected and when the city neared its peak annual murder rate, barely 5,800 students applied to Columbia. Princeton received 12,000 applications"
+          },
+          {
+            "type": "text",
+            "value": "For physics professor James Applegate, this public perception of the city—coupled with Columbia’s dwindling finances—made his choice to take a job at Columbia in 1984 feel risky."
+          },
+          {
+            "type": "text",
+            "value": "“[When] I moved to New York—this being the early 1980s—Columbia had not become popular,” Applegate said."
+          },
+          {
+            "type": "text",
+            "value": "As the University decided it needed to take drastic action to save its reputation and prestige, the Black and Latinx residents who had recently migrated into the city found themselves in direct conflict with Columbia’s mission of creating an academic haven."
+          },
+          {
+            "type": "text",
+            "value": "Before the 1920s, Columbia had been surrounded by decrepit tenements and public housing, which primarily housed low-income Black residents. This gave license for Columbia to demolish or acquire buildings to use for University space—and for the city to increase violent police interactions with residents under the guise of <a href=\"https://www.columbiaspectator.com/eye/2010/12/09/was-manhattanville-blighted/\">cleaning up the neighborhood</a> for the public good."
+          },
+          {
+            "type": "text",
+            "value": "As Columbia acquired more space in the Morningside Heights area, it gained the ability to help shape the neighborhood. When New York City’s annual murder rate had fallen to 770 in 1997, application numbers to Columbia had nearly doubled and the acceptance rate dropped from 32.3 percent to 17.3 percent."
+          },
+          {
+            "type": "text",
+            "value": "<b>**GRAPHIC** murder rates and application rates</b>"
+          },
+          {
+            "type": "text",
+            "value": "A 1999 New York Times article noted that some of Columbia’s reversal of fortune “clearly stems from New York City’s prosperity and rising reputation, which have inflated applications to other local colleges.” The University’s prestige and appeal rose significantly as its campus began to seem safer for students."
+          },
+          {
+            "type": "text",
+            "value": "In recent years, Columbia’s application numbers and ranking are at a historic high; the University broke into the top three spots in the U.S. News and World Report for the first time in 2019 and has remained there since. Columbia College and the School of Engineering and Applied Science received more than 40,000 undergraduate applications for the class of 2024, while Princeton received 32,836."
+          },
+          {
+            "type": "text",
+            "value": "Today, much of Columbia’s allure and prestige is attributed to—rather than hindered by—its location in New York City. West Harlem and other parts of the city are highly accessible from the University, allowing for close<a href=\"https://www.college.columbia.edu/cct/archive/fall14/message_from_the_dean\"> proximity</a> to political leaders, international corporations, and Wall Street. To capitalize on these attributes, the 17-acre and $6.3 billion Manhattanville campus includes a space to host global leaders who frequent New York for work."
+          },
+          {
+            "type": "text",
+            "value": "<b>“Cleaning up” the neighborhood </b>"
+          },
+          {
+            "type": "text",
+            "value": "New York City reported 548 murders in 1963, which rose to a peak of 2,245 in 1990, ranking ninth among all major cities nationwide in murders per capita and constituting 9.6 percent of the nation’s homicides."
+          },
+          {
+            "type": "text",
+            "value": "Just five years later, the narrative of crime and danger in New York City had changed rather dramatically. <a href=\"https://www.nytimes.com/1995/01/01/nyregion/new-york-city-crime-falls-but-just-why-is-a-mystery.html\">The New York Times</a><i> </i>reported in 1995 that crime was dropping and “dropping fast<b>.”</b>"
+          },
+          {
+            "type": "text",
+            "value": "By 2015, New York City’s annual murder rate was 352 homicides— a far cry from the over 2,000 homicides that had struck the city 20 years before."
+          },
+          {
+            "type": "text",
+            "value": "The steep fall in crime statistics, which accompanied the improving reputation of Columbia, has been attributed to a style of aggressive policing known as “broken windows policing,” implemented under Giuliani after his election in 1993 and his appointment of New York Police Commissioner William Bratton. Broken windows policing is premised upon the theory that indications of disorder, decay, and neglect in a neighborhood, like a broken window, can lead to violent crime—and therefore that the way to reduce violence is to harshly punish misdemeanors."
+          },
+          {
+            "type": "text",
+            "value": "Giuliani has not been shy to suggest that his administration “cleaned up” New York City during that era. In 2007, he said that as a mayor, he “brought down crime more than anyone in this country.” In particular, he has touted results in neighborhoods like Times Square, once regarded as a “cesspool” of crime and now seen as a family-friendly tourist hotspot, as proof of the efficacy of his administration in rapidly developing and transforming the city from “<a href=\"https://www.columbiaspectator.com/eye/2016/10/31/columbias-grit-look-history-morningside-heights/\">gritty</a>” to trendy."
+          },
+          {
+            "type": "text",
+            "value": "Many criminologists, such as Peter Moskos, a former police officer and professor at John Jay College of Criminal Justice, have often pointed to gentrification as an “inevitable” consequence of the rise in broken windows policing. Historically, after policing displaces Black people from a community, a neighborhood is likely to be perceived as more appealing to wealthier, white residents."
+          },
+          {
+            "type": "text",
+            "value": "However, history indicates that gentrification and real estate development are not simply the effect of over-policing but a motivator, with the real estate industry working hand-in-hand with police to displace Black residents and accumulate wealth for its stakeholders. For example, Harcourt said that while Giuliani argued Times Square’s rapid transformation from “a neighborhood of old, beat-up theatre and porn shops” to a tourist hotspot was caused by policing, real estate development plans for Times Square had been made as early as the 1970s, far before broken windows was ever implemented. Broken windows then did the job of criminalizing and displacing the poor, such as prostitutes who frequented the area, and in turn, large-scale development projects began."
+          },
+          {
+            "type": "text",
+            "value": "As businesses like Columbia aimed to acquire land to increase profits, policing helped by removing poor Black residents from neighborhoods, which freed space for commercial development. In turn, gentrification pushed residents out of the neighborhood and policing put them in the prison system."
+          },
+          {
+            "type": "text",
+            "value": "Following Giuliani’s election in 1993, police ramped up arrests for behaviors they came to deem as criminal, including smoking marijuana in public, spraying graffiti, selling loose cigarettes, panhandling, and fare evasion. These arrests disproportionately impacted Black and Hispanic residents, according to Harcourt. In West Harlem, which has double the percentage of Black residents as compared to the Upper West Side, officers make double the arrests for low-level marijuana charges. In New York City, the rising costs of transit are especially taxing on Black residents who, compared to white residents, are almost twice as likely to live under the poverty line. Black and Hispanic residents represent nine out of 10 people arrested for fare evasion."
+          },
+          {
+            "type": "text",
+            "value": "[Related:<a href=\"https://www.columbiaspectator.com/news/2020/07/12/students-have-been-just-as-good-as-the-police-at-enforcing-the-legacy-of-enslavement-that-would-finance-and-expand-columbias-prestige/\"> Students have been just as ‘good as the police’ at enforcing the legacy of enslavement that would finance and expand Columbia’s prestige</a>]"
+          },
+          {
+            "type": "text",
+            "value": "Harcourt maintained that the “overall strategy” of broken windows policing was to increase contact between the police and marginalized communities, therefore maximizing opportunities for police confrontations in Black and Latinx communities. Misdemeanor criminalization gave police the license to target Black residents with little to no probable cause, he added."
+          },
+          {
+            "type": "text",
+            "value": "“If you take off the lipstick, that’s really what it was about,” Harcourt said. “And Black and brown residents in New York City are suffering the consequences, which are misdemeanor arrests, losing jobs, spending time in Rikers, and basically spiraling life consequences, not only for the individuals but for everyone around them.”"
+          },
+          {
+            "type": "text",
+            "value": "Broken windows would eventually develop into stop-and-frisk policing, one of the police force’s most notorious methods of blatant racial profiling enacted under former Mayor Michael Bloomberg."
+          },
+          {
+            "type": "text",
+            "value": "Harcourt added that broken windows policing was especially tempting as an explanation because both liberals and conservatives found it appealing: Conservatives liked that it was “tough on crime,” while liberals who were opposed to extreme conservative law-and-order politics viewed broken windows as a more “gentle” method focused on “cleaning up” a neighborhood."
+          },
+          {
+            "type": "text",
+            "value": "It is no accident, then, that Black people are disproportionately arrested and overrepresented in American prisons. In 2015, over 90 percent of those arraigned in criminal courts in New York City were Black or Hispanic. Black people make up 14 percent of the New York state population but almost half of its prison population."
+          },
+          {
+            "type": "text",
+            "value": "Through an exception in the 13th Amendment that allowed enslavement for prisoners, the United States has been motivated to mass incarcerate Black people as a method to maintain an unpaid labor force. Criminal justice policies like the 1970’s “War on Drugs”, which heavily criminalized drug use and which a Nixon aide later admitted heightened spending as an excuse to target Black people, were often excuses to funnel Black people into prison."
+          },
+          {
+            "type": "text",
+            "value": "Prison labor has now grown into a multibillion-dollar industry as around 4,100 corporations profit from incarceration. Today, the United States has the highest incarcerated population in the world, with 2.2 million Americans in prison today—a 500 percent increase over the past 40 years."
+          },
+          {
+            "type": "subhed",
+            "value": "Buying up the neighborhood"
+          },
+          {
+            "type": "text",
+            "value": "Alongside the introduction of broken windows policing and Columbia’s rise in popularity, Morningside Heights was becoming more affluent as a community: Median family income, adjusted for inflation, rose from $33,000 to $56,000 almost 20 years later. Of those living in Morningside Heights and Hamilton Heights in 2013, the top fifth of the area’s income distribution makes<a href=\"https://www.columbiaspectator.com/2011/12/02/income-gap-most-extreme-morningside-hamilton-heights/\"> 30 times</a> more than the lowest fifth, creating the highest income disparity between neighboring areas in the city."
+          },
+          {
+            "type": "text",
+            "value": "Victor Edwards, second vice-chair of Community Board 9 — a local advisory board that represents Morningside Heights and its surrounding communities— witnessed this affluent growth firsthand from his home of 30 years in West Harlem."
+          },
+          {
+            "type": "text",
+            "value": "“Columbia takes the buildings, and it rehab[ilitates] them and rents them out,” Edwards said, referring to Columbia’s acquisition of rent-stabilized units to turn them into market-rate. “Their condos are not affordable to local residents, so they get pushed out that way. The building I lived in was rent-controlled, rent-stabilized, and it went condo a couple years ago.”"
+          },
+          {
+            "type": "text",
+            "value": "Because Columbia can leverage its status as a non-profit, it has the ability to forcibly acquire land through eminent domain, in which the city government takes private property away from owners for “public use.” Police power could be used to the University’s advantage—the more “unfit” the land in its current condition, the more reason for it to be reappropriated. So long as the media and a racist criminal justice system criminalized low-income Black communities, Columbia could improve its reputation by “protecting” its students and faculty from their neighbors. By displacing residents in West Harlem, it could acquire more property to accumulate more wealth, further improving its prestige."
+          },
+          {
+            "type": "text",
+            "value": "The level of security Columbia purports to demand is immediately clear: Today, the Columbia Public Safety force has 165 full-time security officers and 60 uniformed supervisors licensed by New York state—a size Moskos said “would be for a city of roughly 50,000, or maybe even higher, like 70,000.” Many of these officers are former NYPD officers, and their <a href=\"https://www.columbiaspectator.com/news/2019/04/12/black-columbia-student-physically-restrained-on-countertop-by-barnard-public-safety-requesting-to-see-cuid/\">aggressive policing</a> tactics toward community members, including Black students, have long drawn criticism from student activists. Recently, Columbia’s Mobilized African Diaspora is advocating for defunding Public Safety and instead investing in community safety solutions, <a href=\"https://www.columbiaspectator.com/news/2020/08/31/student-group-mobilized-african-diaspora-calls-on-university-to-stop-supporting-nypd-confront-anti-black-history/\">among other demands sent to the administration. </a>"
+          },
+          {
+            "type": "text",
+            "value": "“Is Columbia overpoliced? Yes, by choice, because of its security apparatus,” Moskos said. “There’s literally a cop on every corner.”"
+          },
+          {
+            "type": "text",
+            "value": "In this way, the University transformed West Harlem as well. In 1947, when New York City’s murder rate was at an almost all-time low, Columbia and other neighborhood institutions formed Morningside Heights, Inc. Originally founded and led by David Rockefeller, the urban renewal organization’s goal was to remove “undesirables” from the neighborhood—“undesirables” meaning low-income and largely Black and non-Black Puerto Rican residents."
+          },
+          {
+            "type": "text",
+            "value": "With Columbia leading the charge, the group purchased private housing stock and pressured New York City agencies to begin shutting down public housing developments. As early as the late 1940s, Columbia had a vision of a transformed Morningside Heights neighborhood, and it was clear how this transformed neighborhood was designed to serve a wealthier and whiter student population."
+          },
+          {
+            "type": "text",
+            "value": "In 1957, <a href=\"http://spectatorarchive.library.columbia.edu/?a=d&d=cs19571126-01.2.30&srpos=1&e=------195-en-20--1--txt-txIN-%22tenements%22+OR+%22public+housing%22+------\">a Spectator article</a> noted the dramatic “transformation” of “slum tenements” into middle-income housing in Morningside Heights through Morningside Heights, Inc. The next year, administrative committees at Columbia proposed an active policy of “real estate acquisition” in Morningside Heights, and in the 1960s alone, Columbia purchased more than 100 buildings. In 1963, Columbia purchased the Bryn Mawr hotel, a rent-controlled building that housed primarily low-income Black residents, and then used records of crime like drug distribution to pursue the court-ordered eviction of its residents so that it could be turned into Barnard student housing."
+          },
+          {
+            "type": "text",
+            "value": "During the mid-1970s, Columbia began using the city’s power of eminent domain to seize a garage from a private owner to be a library site. During that time, the University was already receiving pushback from neighborhood groups for its ambitious expansion efforts, including its attempt to build the private gymnasium in Morningside Park in 1968 and its large-scale construction plan for East Campus in 1977."
+          },
+          {
+            "type": "text",
+            "value": "<b>**Building acquisition graphic**</b>"
+          },
+          {
+            "type": "text",
+            "value": "In the 1980s, Columbia often purchased buildings that had previously been inhabited by low-income tenants. A Spectator article in 1989 claimed Columbia had “<a href=\"http://spectatorarchive.library.columbia.edu/?a=d&d=cs19890419-01.2.10&srpos=10&e=------198-en-20--1--txt-txIN-residents----1989--\">displaced more than 20,000 community residents</a>” since the early 1960s in order to open up University space."
+          },
+          {
+            "type": "text",
+            "value": "One former Columbia professor, John Young, harshly condemned Columbia’s real estate policy as “militaristic” in 1981."
+          },
+          {
+            "type": "text",
+            "value": "Today, policing continues to harass and displace low-income Black residents in Harlem. In 2014, the NYPD launched the largest gang raid in the history of the city on the Manhattanville and Grant Houses, two public housing projects in Manhattanville. Many residents condemned the raid, stating that it would not tangibly reduce violence."
+          },
+          {
+            "type": "text",
+            "value": "“We asked the city for help and we got a raid,” a <a href=\"https://jjie.org/2014/06/05/harlem-residents-we-asked-city-for-help-we-got-a-raid-instead/\">resident said </a>in an interview with Juvenile Justice Information Exchange."
+          },
+          {
+            "type": "text",
+            "value": "Harcourt said that many academics have disagreed on a comprehensive answer about what led to the dramatic drop in murders in New York City but pointed to another possibility: The broken windows strategy criminalized the activities of low-income Black residents, and crime fell by erasing large numbers of these residents from their communities by placing them into state prisons<b>.</b>"
+          },
+          {
+            "type": "text",
+            "value": "Still, the story of broken windows policing that segregated “safe” neighborhoods remains appealing for residents both inside and outside of New York, especially to prospective students and families. Harcourt said that it has helped in increasing the appeal of New York City to wealthier, out-of-state residents."
+          },
+          {
+            "type": "text",
+            "value": "“Having an explanation like that makes people feel much better about the crime drop because it renders it more controllable and purposeful,” Harcourt said. “If you have an explanation for it, then you can expect and anticipate that it’s not gonna go away.”"
+          },
+          {
+            "type": "text",
+            "value": "For prospective Columbia students and their families, lower crime rates both confirmed their views of the “Black criminal” and assuaged their fears. The lessened fears of crime in the area allowed the University to more comfortably embrace its position in New York City as a marketing tool. Today, Columbia receives over 40,000 undergraduate applications and only accepts 6.1 percent of applicants. Morningside Heights continues to get wealthier with a current median family income of around $85,930 and one of the widest income disparities in New York."
+          },
+          {
+            "type": "text",
+            "value": "“It never became the fantasy area for the rich and wealthy,” Harcourt said, “but nevertheless has been significantly transformed.” The question is: For whom? And at what cost?<b> </b>"
+          },
+          {
+            "type": "text",
+            "value": "<i>Staff writer Sofia Kwon can be contacted at </i><i>sofia.kwon@columbiaspectator.com</i><i>. Follow Spectator on Twitter at </i><a href=\"https://twitter.com/ColumbiaSpec?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor\"><i>@ColumbiaSpec</i></a><i>.</i>"
+          }
+        ],
+        "headline": "Broken windows policing and gentrification not only harmed the Black community, but also strengthened Columbia’s reputation",
+        "date": "Sept 15, 2020",
+        "byline": "By Sofia Kwon",
         "USE_NEWS_NAV": false,
         "USE_EYE_NAV": false,
         "USE_COVER_HED": false,
         "IS_EMBED": false,
-        "DOC_URL": null
+        "DOC_URL": "https://docs.google.com/document/d/1eJwT8hm9rozVc5t6lgm-T8EXX83WBybXSpSd_BmGcBc/edit"
       }
     }
   }
