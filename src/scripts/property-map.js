@@ -11,12 +11,11 @@ const map = new mapboxgl.Map({
   container: 'property-map',
   style: 'mapbox://styles/mapbox/dark-v9',
   center: [-73.9618, 40.8115],
-  zoom: 15,
+  zoom: 14.5,
   scrollZoom: false,
   dragRotate: false,
   touchZoomRotate: false,
   touchPitch: false,
-  interactive: false,
 });
 
 const PROPERTIES_ID = 'properties';
@@ -34,11 +33,7 @@ map.on('load', () => {
     type: 'fill',
     source: PROPERTIES_ID,
     paint: {
-      'fill-color': '#C3A5D9',
-      'fill-opacity': 0,
-      'fill-opacity-transition': {
-        duration: 300,
-      },
+      'fill-color': 'rgba(66, 225, 135, 0.77)',
     },
   });
 
@@ -48,10 +43,10 @@ map.on('load', () => {
     mapLabel.innerText = '' + year;
   }
 
-  setYear(++year);
+  // setYear(++year);
 
   setInterval(() => {
-    setYear(++year);
     if (year > 2020) year = 1965;
-  }, 100);
+    setYear(++year);
+  }, 150);
 });
