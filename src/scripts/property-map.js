@@ -1,6 +1,6 @@
 import mapboxgl from 'mapbox-gl';
 import { feature } from 'topojson-client';
-import properties from '../../../property-acquisition/outputs/acquisitions.json';
+import properties from '../../data/acquisitions.json';
 
 const mapLabel = document.getElementById('property-map-label');
 
@@ -39,14 +39,11 @@ map.on('load', () => {
 
   function setYear(year) {
     map.setFilter(PROPERTIES_ID, ['<=', 'year', year]);
-    map.setPaintProperty(PROPERTIES_ID, 'fill-opacity', 1);
     mapLabel.innerText = '' + year;
   }
 
-  // setYear(++year);
-
   setInterval(() => {
-    if (year > 2020) year = 1965;
+    if (year === 2020) year = 1965;
     setYear(++year);
   }, 150);
 });
