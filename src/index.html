@@ -42,13 +42,10 @@
     </else>
 
     <div class="story">
-      <p class="g-body paragraph">
-        Paragraph placeholder
-      </p>
       <each loop="item in body">
         <switch expression="item.type">
           <case n="'text'">
-            <!-- <include src="partials/paragraph.html"></include> -->
+            <include src="partials/paragraph.html"></include>
           </case>
           <case n="'subhed'">
             <include src="partials/subhed.html"></include>
@@ -61,13 +58,13 @@
               <if condition="item.value.asset === 'property-acquisition.html'">
                 <include src="property-acquisition.html"></include>
               </if>
+              <if condition="item.value.asset === 'datawrapper.html'">
+                <include src="datawrapper.html"></include>
+              </if>
             </div>
           </case>
         </switch>
       </each>
-      <p class="g-body paragraph">
-        Paragraph placeholder
-      </p>
     </div>
 
     <div class="spectate-dev-footer">

@@ -6,31 +6,11 @@
     "posthtml-expressions": {
       "root": "./src/partials",
       "locals": {
-        "top": [
-          {
-            "type": "graphic",
-            "value": {
-              "asset": "thumbnail.html"
-            }
-          }
-        ],
+        "top": [],
         "body": [
-          {
-            "type": "graphic",
-            "value": {
-              "asset": "lede.html",
-              "steps": []
-            }
-          },
           {
             "type": "text",
             "value": "In September 1990, the New York Post<i> </i>ran a headline that read: “Crime-ravaged city cries out for help: Dave, Do Something.” The “Dave” in question was Mayor David Dinkins and the “crime-ravaged city” was New York City, whose crime rates had been steadily increasing throughout the 20th century."
-          },
-          {
-            "type": "graphic",
-            "value": {
-              "asset": "property-acquisition.html"
-            }
           },
           {
             "type": "text",
@@ -57,8 +37,12 @@
             "value": "As Columbia acquired more space in the Morningside Heights area, it gained the ability to help shape the neighborhood. When New York City’s annual murder rate had fallen to 770 in 1997, application numbers to Columbia had nearly doubled and the acceptance rate dropped from 32.3 percent to 17.3 percent."
           },
           {
-            "type": "text",
-            "value": "<b>**GRAPHIC** murder rates and application rates</b>"
+            "type": "graphic",
+            "value": {
+              "asset": "datawrapper.html",
+              "frame1": "<iframe title=\"Murders reported in New York City, 1963 - 2019\" aria-label=\"Interactive line chart\" id=\"datawrapper-chart-P05He\" src=\"https://datawrapper.dwcdn.net/P05He/1/\" scrolling=\"no\" frameborder=\"0\" style=\"width: 0; min-width: 100% !important; border: none;\" height=\"400\"></iframe><script type=\"text/javascript\">!function(){\"use strict\";window.addEventListener(\"message\",(function(a){if(void 0!==a.data[\"datawrapper-height\"])for(var e in a.data[\"datawrapper-height\"]){var t=document.getElementById(\"datawrapper-chart-\"+e)||document.querySelector(\"iframe[src*='\"+e+\"']\");t&&(t.style.height=a.data[\"datawrapper-height\"][e]+\"px\")}}))}();",
+              "frame2": "<iframe title=\"Columbia application numbers, 1991-1997\" aria-label=\"Interactive line chart\" id=\"datawrapper-chart-JrisG\" src=\"https://datawrapper.dwcdn.net/JrisG/1/\" scrolling=\"no\" frameborder=\"0\" style=\"width: 0; min-width: 100% !important; border: none;\" height=\"400\"></iframe><script type=\"text/javascript\">!function(){\"use strict\";window.addEventListener(\"message\",(function(a){if(void 0!==a.data[\"datawrapper-height\"])for(var e in a.data[\"datawrapper-height\"]){var t=document.getElementById(\"datawrapper-chart-\"+e)||document.querySelector(\"iframe[src*='\"+e+\"']\");t&&(t.style.height=a.data[\"datawrapper-height\"][e]+\"px\")}}))}();"
+            }
           },
           {
             "type": "text",
@@ -73,8 +57,8 @@
             "value": "Today, much of Columbia’s allure and prestige is attributed to—rather than hindered by—its location in New York City. West Harlem and other parts of the city are highly accessible from the University, allowing for close<a href=\"https://www.college.columbia.edu/cct/archive/fall14/message_from_the_dean\"> proximity</a> to political leaders, international corporations, and Wall Street. To capitalize on these attributes, the 17-acre and $6.3 billion Manhattanville campus includes a space to host global leaders who frequent New York for work."
           },
           {
-            "type": "text",
-            "value": "<b>“Cleaning up” the neighborhood </b>"
+            "type": "subhed",
+            "value": "“Cleaning up” the neighborhood"
           },
           {
             "type": "text",
@@ -154,7 +138,7 @@
           },
           {
             "type": "text",
-            "value": "Victor Edwards, second vice-chair of Community Board 9 — a local advisory board that represents Morningside Heights and its surrounding communities— witnessed this affluent growth firsthand from his home of 30 years in West Harlem."
+            "value": "Victor Edwards, second vice-chair of Community Board 9 — a local advisory board that represents Morningside Heights and its surrounding communities — witnessed this affluent growth firsthand from his home of 30 years in West Harlem."
           },
           {
             "type": "text",
@@ -189,8 +173,10 @@
             "value": "During the mid-1970s, Columbia began using the city’s power of eminent domain to seize a garage from a private owner to be a library site. During that time, the University was already receiving pushback from neighborhood groups for its ambitious expansion efforts, including its attempt to build the private gymnasium in Morningside Park in 1968 and its large-scale construction plan for East Campus in 1977."
           },
           {
-            "type": "text",
-            "value": "<b>**Building acquisition graphic**</b>"
+            "type": "graphic",
+            "value": {
+              "asset": "property-acquisition.html"
+            }
           },
           {
             "type": "text",
@@ -236,7 +222,8 @@
         "headline": "Broken windows policing and gentrification not only harmed the Black community, but also strengthened Columbia’s reputation",
         "date": "Sept 15, 2020",
         "byline": "By Sofia Kwon",
-        "USE_NEWS_NAV": false,
+        "footer": "Map by Jason Kao. Deeds are from ACRIS; tax lot shapefiles are from the Department of Finance. The full methodology is on our <a href=\"https://github.com/graphicsdesk/property-acquisition\">GitHub</a>.",
+        "USE_NEWS_NAV": true,
         "USE_EYE_NAV": false,
         "USE_COVER_HED": false,
         "IS_EMBED": false,
