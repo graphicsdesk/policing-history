@@ -46,4 +46,6 @@ map.on('load', () => {
     if (year === 2020) year = 1965;
     setYear(++year);
   }, 150);
+
+  map.resize();
 });

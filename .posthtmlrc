@@ -41,7 +41,7 @@
             "value": {
               "asset": "datawrapper.html",
               "frame1": "<iframe title=\"Murders reported in New York City, 1963 - 2019\" aria-label=\"Interactive area chart\" id=\"datawrapper-chart-P05He\" src=\"https://datawrapper.dwcdn.net/P05He/4/\" scrolling=\"no\" frameborder=\"0\" style=\"width: 0; min-width: 100% !important; border: none;\" height=\"360\"></iframe><script type=\"text/javascript\">!function(){\"use strict\";window.addEventListener(\"message\",(function(a){if(void 0!==a.data[\"datawrapper-height\"])for(var e in a.data[\"datawrapper-height\"]){var t=document.getElementById(\"datawrapper-chart-\"+e)||document.querySelector(\"iframe[src*='\"+e+\"']\");t&&(t.style.height=a.data[\"datawrapper-height\"][e]+\"px\")}}))}(); </script>",
-              "frame2": "<iframe title=\"Columbia application numbers, 1991-1997\" aria-label=\"Interactive line chart\" id=\"datawrapper-chart-JrisG\" src=\"https://datawrapper.dwcdn.net/JrisG/3/\" scrolling=\"no\" frameborder=\"0\" style=\"width: 0; min-width: 100% !important; border: none;\" height=\"360\"></iframe><script type=\"text/javascript\">!function(){\"use strict\";window.addEventListener(\"message\",(function(a){if(void 0!==a.data[\"datawrapper-height\"])for(var e in a.data[\"datawrapper-height\"]){var t=document.getElementById(\"datawrapper-chart-\"+e)||document.querySelector(\"iframe[src*='\"+e+\"']\");t&&(t.style.height=a.data[\"datawrapper-height\"][e]+\"px\")}}))}(); </script>"
+              "frame2": "<iframe title=\"Columbia application numbers, 1991 - 1997\" aria-label=\"Interactive line chart\" id=\"datawrapper-chart-JrisG\" src=\"https://datawrapper.dwcdn.net/JrisG/4/\" scrolling=\"no\" frameborder=\"0\" style=\"width: 0; min-width: 100% !important; border: none;\" height=\"360\"></iframe><script type=\"text/javascript\">!function(){\"use strict\";window.addEventListener(\"message\",(function(a){if(void 0!==a.data[\"datawrapper-height\"])for(var e in a.data[\"datawrapper-height\"]){var t=document.getElementById(\"datawrapper-chart-\"+e)||document.querySelector(\"iframe[src*='\"+e+\"']\");t&&(t.style.height=a.data[\"datawrapper-height\"][e]+\"px\")}}))}(); </script>"
             }
           },
           {
@@ -220,8 +220,8 @@
           }
         ],
         "headline": "Broken windows policing and gentrification not only harmed the Black community, but also strengthened Columbia’s reputation",
-        "date": "Sept 15, 2020",
-        "byline": "By Sofia Kwon",
+        "date": "October 5, 2020",
+        "byline": "By <a href=\"https://www.columbiaspectator.com/contributors/Sofia-Kwon\">Sofia Kwon</a>",
         "footer": "Map by Jason Kao. Deeds are from ACRIS; tax lot shapefiles are from the Department of Finance. The full methodology is on our <a href=\"https://github.com/graphicsdesk/property-acquisition\">GitHub</a>.\nColumbia application numbers are from Columbia University.",
         "USE_NEWS_NAV": true,
         "USE_EYE_NAV": false,
