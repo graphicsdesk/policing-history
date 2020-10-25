@@ -1,0 +1,45 @@
+#lede * {
+    box-sizing: unset;
+}
+
+#lede-graphic {
+    position: sticky;
+    position: -webkit-sticky;
+    width: 100%;
+    top: 25%;
+    width:50%;
+    height:50%;
+    background-color:red;
+    svg {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+#steps-container {
+    // pointer-events: none;
+    z-index: 2;
+    transform: translate3d(0, 0, 0);
+    margin-top: 20vh;
+}
+
+$step-margin-left: 55%;
+$step-max-width: 470px;
+
+.lede-step {
+    padding-top: 0;
+    padding-bottom: 60vh;
+
+    p {
+        padding: 20px;
+        margin: 0;
+        margin-left: $step-margin-left;
+        font-size: 20px;
+        line-height: 30px;
+        width: calc(100% - 40px);
+        max-width: $step-max-width;
+    }
+}
+.lede-step:last-child {
+    margin-bottom: 0;
+  }
